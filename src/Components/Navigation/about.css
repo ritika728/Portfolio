@@ -1,0 +1,59 @@
+body{
+    background-image: url(./about.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    margin-top: 50px;
+
+}
+.heading{
+    display: flex;
+    color: aliceblue;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 150px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    max-width: 600px;
+}
+
+.heading h1{
+    font-size: 50px;
+    white-space:nowrap;
+    overflow:hidden;
+    animation:typing 4s steps(22,end) forwards,
+            blink 1s infinite;
+            animation-iteration-count:1;
+}
+.heading p{
+    text-align: justify;
+    font-size: 18px;
+    animation: fadeInAnimation ease 10s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.photo{
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+}
+
+@keyframes typing {
+    0% { width:0% }
+    100% { width:100% }
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+ 
