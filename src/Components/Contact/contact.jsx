@@ -2,10 +2,11 @@ import React from 'react';
 import emailjs  from 'emailjs-com';
 import { useState } from 'react';
 import './contact.css'
-import FacebookIcon from "@material-ui/icons/Facebook";
+import GitHubIcon from "@material-ui/icons/GitHub";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import EmailIcon from '@mui/icons-material/Email';
+import { Link } from '@material-ui/core';
 
 const ContactForm = () => {
 
@@ -20,21 +21,21 @@ const ContactForm = () => {
         <div className='container' id="CONTACT">
         <div className='container1'>
               <div className='title'>
-                <h1 style={{color:"white", fontSize:"50px"}}>CONTACT ME</h1>
+                <h1 style={{ fontSize:"50px"}}>CONTACT ME</h1>
               </div>
               <form onSubmit={sendemail}>
                 <div className="total">
                 <div className="socialsmain">
-                <h1 style={{marginBottom:"50px"}}>Getting In Touch Is Easy!</h1>
+                <h1 style={{marginBottom:"65px"}}>GETTING IN TOUCH IS EASY!</h1>
                 <h5 style={{marginTop:"-20px", marginBottom:"40px"}}>
-                  I am open to collaborate for any project.Thank you for viewing my portfolio. I hope you enjoyed looking at my work. Feel free to drop of any feedback and don't forget to connect with me.
+                  I am open to collaborate for any project. Thank you for viewing my portfolio. I hope you enjoyed looking at my work. Feel free to drop of any feedback and don't forget to connect with me.
                 </h5>
            
                 <div className="socials">
-                  <p style={{marginLeft:"0px"}}className="icons"><EmailIcon/></p>
-                  <p className="icons"><TwitterIcon/></p>
-                  <p className="icons"><FacebookIcon/></p>
-                  <p className="icons"><LinkedInIcon/></p>
+                  <Link href="mailto:ritikamalik100102@gmail.com?"style={{marginLeft:"0px"}}className="icons"><EmailIcon/></Link>
+                  <Link href="https://twitter.com/Ritika287" className="icons"><TwitterIcon/></Link>
+                  <Link href="https://github.com/ritika728" className="icons"><GitHubIcon/></Link>
+                  <Link href="https://www.linkedin.com/in/ritika-malik-must/" className="icons"><LinkedInIcon/></Link>
                </div>
                </div>
                 <div className="all">

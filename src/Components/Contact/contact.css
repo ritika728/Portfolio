@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
 #CONTACT{
   background-size:cover;
   background-repeat: no-repeat;
@@ -39,23 +42,28 @@
 }
 
 .submit{
-  padding: 20px;
-  width: 200px;
+  padding:15px;
+  width: 150px;
   font-family:Arial, Helvetica, sans-serif;
   font-weight: bolder;
   font-size: 18px;
-  background-color: #FAD22E;
+  background-color: rgb(136,146,176);
   color: white;
   border-style: none;
   border-radius: 0.3rem;
   justify-items: center;
   display:block;
   margin: 0 auto;
+  margin-left: 1025px;
+  margin-top: -50px !important;
+  letter-spacing: 0.3rem;
 }
 
 .title{
   padding-bottom: 50px;
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(204,214,246);
 }
 
 input::placeholder{
@@ -77,23 +85,29 @@ textarea::placeholder{
 }
 
 .socialsmain{
+  margin-top: -30px;
   display: flex;
   flex-direction: column;
-  width: 600px;
+  width: 650px;
 }
 
 .socialsmain h1{
-  color: white;
-  font-size: 40px;
+  color:rgb(99,252,216);
+  font-size: 35px;
   letter-spacing: 0.3rem;
-  font-family:Arial, Helvetica, sans-serif
+  font-family: "Open Sans";
+  font-weight: bolder ;
 }
 
 .socialsmain h5{
-  font-size: 25px;
+  font-size: 20px;
   text-align: justify;
-  color: lightslategray;
+  color: rgb(136,146,176);
   font-weight: lighter;
+  line-height: 2.2rem;
+  letter-spacing: 0.08rem;
+  font-family:"Open Sans";
+  
 }
 
 .socials{
@@ -102,12 +116,13 @@ textarea::placeholder{
 }
 
 .icons{
+  margin-top: 20px !important;
   display: inline-block;
     border-radius: 100px;
     color: white;
-    background-color: black;
+    background-color:rgb(136,146,176) ;
   padding: 1em 1em;
-  margin: 10px;
+  margin-right: 40px !important;
 }
 
 @media (max-width:1050px){

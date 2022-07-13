@@ -2,6 +2,7 @@ import './landing.css'
 import DrawerAppBar from "../../Components/Navigation/navigation";
 import { useState } from 'react';
 import ContactForm from '../../Components/Contact/contact'
+import Achievements from '../../Components/Achievements/achievements';
 
 function Landing() {
     const [navBg, setNavBg] = useState(false);
@@ -30,8 +31,9 @@ function Landing() {
                     </>
                 )
             }
-           
+        <Achievements/>
         <ContactForm/>
+
         </>
     )
 }

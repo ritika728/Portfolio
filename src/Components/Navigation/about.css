@@ -1,8 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
 body{
-    background-image: url(./about.jpg);
+    /* background-image: url(./about2.webp); */
+    background-color: rgb(10,25,47);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    
     
 }
 .main{
@@ -14,7 +19,7 @@ body{
 }
 .heading{
     display: flex;
-    color: aliceblue;
+    color: rgb(204,214,246);
     flex-direction: column;
     justify-content: center;
     margin-right: 150px;
@@ -29,18 +34,22 @@ body{
     animation:typing 4s steps(22,end) forwards,
             blink 1s infinite;
             animation-iteration-count:1;
+    font-family: 'Montserrat', sans-serif;
 }
 .heading p{
     text-align: justify;
-    font-size: 18px;
-    animation: fadeInAnimation ease 10s;
+    font-size: 20px;
+    /* animation: fadeInAnimation ease 10s;
     animation-iteration-count: 1;
-    animation-fill-mode: forwards;
+    animation-fill-mode: forwards; */
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: 0.1rem;
+    color: rgb(97,109,136);
 }
 .photo{
     display: flex;
     flex-direction: row;
-    margin-top: 60px;
+    margin-top: 20px;
 }
 
 @keyframes typing {
@@ -48,7 +57,12 @@ body{
     100% { width:100% }
 }
 
-@keyframes fadeInAnimation {
+.image{
+    border-radius: 1rem;
+    margin-top: 30px;
+}
+
+/* @keyframes fadeInAnimation {
     0% {
         opacity: 0;
     }
@@ -56,4 +70,4 @@ body{
         opacity: 1;
     }
 }
- 
+  */

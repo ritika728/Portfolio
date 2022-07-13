@@ -96,7 +96,7 @@ export default function DrawerAppBar(props) {
             <p>My front-end skills includes HTML, CSS, JavaScript basics, React JS. I love problem-solving and my main coding language is C++. I participate in contests frequently and contribute to open source too.</p>
           </div>
           <div className="photo">
-            <img style={{height:"300px"}}src={require('./image.png')} />
+            <img className="image"  style={{height:"350px"}}src={require('./image.jpg')} />
           </div>
          </div>
         </Typography>
