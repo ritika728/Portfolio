@@ -6,10 +6,12 @@
 
 ::-webkit-scrollbar-thumb {
     background-color: #333333;
+    
 }
 
 ::-webkit-scrollbar-track {
     background-color: white;
+
 }
 .css-19kzrtu {
     padding: 2px!important;

@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
 #ACHIEVEMENTS{
  width:100%;
  min-width:448px;
  height: 1050px;
- margin-top: -90px;
+ /* margin-top: -90px; */
 }
 
 .heading2{
@@ -25,6 +28,7 @@
  padding: 20px 0 20px;
  position: relative;
  margin: 0 auto;
+ 
 }
 .timeline:before {
  top: 0;
@@ -35,25 +39,30 @@
  background-color: #008b57;
  left: 50%;
  margin-left: -1.5px;
+ 
 }
 .timeline > li {
  margin-bottom: 20px;
  position: relative;
+ 
     
 }
 .timeline > li:before,
 .timeline > li:after {
  content: " ";
  display: table;
+ 
 
 }
 .timeline > li:after {
  clear: both;
+ 
 }
 .timeline > li:before,
 .timeline > li:after {
  content: " ";
  display: table;
+ 
 }
 .timeline > li:after {
  clear: both;
@@ -68,6 +77,7 @@
  -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
  opacity: 0.9;
+ 
 
 }
 .timeline > li > .timeline-panel:before {
@@ -80,6 +90,7 @@
  border-right: 0 solid #ccc;
  border-bottom: 15px solid transparent;
  content: " ";
+ 
 }
 .timeline > li > .timeline-panel:after {
  position: absolute;
@@ -91,6 +102,7 @@
  border-right: 0 solid #fff;
  border-bottom: 14px solid transparent;
  content: " ";
+ 
 }
 .timeline > li > .timeline-badge {
  width: 20px;
@@ -109,6 +121,7 @@
  border-bottom-right-radius: 50%;
  border-bottom-left-radius: 50%;
  border:4px solid cadetblue;
+ 
 }
 .timeline > li.timeline-inverted > .timeline-panel {
  float: right;
@@ -143,6 +156,8 @@
     color: rgb(136,146,176);
     display: flex;
     justify-content: center;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+    margin-top: -5px;
+    font-family: 'Open Sans';
+    font-size: 15px;
 }
-

@@ -25,6 +25,8 @@ export default function DrawerAppBar(props) {
     setMobileOpen(!mobileOpen);
   };
 
+  
+
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
       <Divider />
@@ -88,16 +90,18 @@ export default function DrawerAppBar(props) {
       </Box>
       <Box component="main" sx={{ p: 3 }} id="ABOUT">
         <Toolbar />
-        <Typography>
-          <div className="main" id="ABOUT">
+        <Typography component={'div'}>
+          <div id='ABOUT'>
+          <div className="main">
           <div className="heading">
             <h1>Hello, I'm Ritika Malik</h1>
-            <p>I'm a Front-End Web Developer, with a keen interest in Full Stack Web Developement. Currently I am in my pre-final year pursuing a bachelor's degree in CSE. </p>
-            <p>My front-end skills includes HTML, CSS, JavaScript basics, React JS. I love problem-solving and my main coding language is C++. I participate in contests frequently and contribute to open source too.</p>
+            <p>I'm a Front-End Web Developer, with a keen interest in Full Stack Web Developement. Currently I am in my pre-final year pursuing bachelor's degree in CSE. </p>
+            <p>My front-end skills includes HTML, CSS, JavaScript basics, React JS. I partcipate frequently in coding contests and like contributing to open source. </p>
           </div>
           <div className="photo">
-            <img className="image"  style={{height:"350px"}}src={require('./image.jpg')} />
+            <img className="image"  style={{height:"300px"}}src={require('./image.jpg')} />
           </div>
+         </div>
          </div>
         </Typography>
       </Box>

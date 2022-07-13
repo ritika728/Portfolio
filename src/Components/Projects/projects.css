@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+
+#PROJECTS{
+    height: 800px;
+    margin-top: -100px;
+}
+.mainheading{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(204,214,246);
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(17,34,64);
+    width: 350px;
+    height: 250px;
+    border-radius: 0.5rem;
+    margin: 20px;
+    padding-top:5px;
+}
+
+.projecthead{
+    color: rgb(204,214,246);
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.08rem;
+    padding: 5px 20px 10px 20px;
+    margin-top: -10px;
+}
+
+.para{
+    padding: 20px;
+    text-align: justify;
+    /* color: rgb(136,146,176); */
+      color: rgb(204,214,246); 
+    font-family: "Open Sans";
+    font-size: 15px;
+    margin-top: -40px;
+}
+
+.stack{
+    font-size: 12px;
+    margin-top: -10px;
+    font-family: "Open Sans";
+    /* color: rgb(204,214,246); */
+    color: rgb(104,115,145);
+}
+
+.three{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.git{
+    margin-left: 320px !important;
+}
+
+

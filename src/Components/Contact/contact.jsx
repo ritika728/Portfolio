@@ -32,10 +32,10 @@ const ContactForm = () => {
                 </h5>
            
                 <div className="socials">
-                  <Link href="mailto:ritikamalik100102@gmail.com?"style={{marginLeft:"0px"}}className="icons"><EmailIcon/></Link>
-                  <Link href="https://twitter.com/Ritika287" className="icons"><TwitterIcon/></Link>
-                  <Link href="https://github.com/ritika728" className="icons"><GitHubIcon/></Link>
-                  <Link href="https://www.linkedin.com/in/ritika-malik-must/" className="icons"><LinkedInIcon/></Link>
+                  <Link href="mailto:ritikamalik100102@gmail.com?"style={{marginLeft:"0px"}}className="icons" target="_blank"><EmailIcon/></Link>
+                  <Link href="https://twitter.com/Ritika287" className="icons" target="_blank"><TwitterIcon/></Link>
+                  <Link href="https://github.com/ritika728" className="icons" target="_blank"><GitHubIcon/></Link>
+                  <Link href="https://www.linkedin.com/in/ritika-malik-must/" target="_blank" className="icons"><LinkedInIcon/></Link>
                </div>
                </div>
                 <div className="all">

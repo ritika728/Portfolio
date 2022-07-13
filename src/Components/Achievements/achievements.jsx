@@ -2,8 +2,8 @@ import React from 'react'
 import './achievements.css'
 const achievements = () => {
   return (
-    <div>
-        <div className="container4" id='ACHIEVEMENTS'>
+    <div id='ACHIEVEMENTS'>
+        <div className="container4" >
     <div className="page-header">
         <h1 className="heading2" style={{fontSize:"50px"}} id="timeline">ACHIEVEMENTS</h1>
     </div>
@@ -37,7 +37,7 @@ const achievements = () => {
                     <div class="timeline-badge"></div>
           <div class="timeline-panel">
             <div class="timeline-body">
-              <p>Selected as the publicity volunteer for YESIST12</p>
+              <p>Chosen as Campus Mantri of GeeksforGeeks in Mody University</p>
             </div>
           </div>
         </li>
