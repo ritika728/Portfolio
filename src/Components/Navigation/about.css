@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 #ABOUT{
-    height: 800px !important ;
+    height: 1200px !important ;
     scroll-behavior: smooth;
 }
 body{
@@ -76,7 +76,7 @@ img.image {
 
 @media (max-width:500px) {
     #ABOUT{
-        height: 200% !important;
+        height: 400% !important;
     }
     .main{
         display: flex;

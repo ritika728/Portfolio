@@ -165,6 +165,10 @@
     #ACHIEVEMENTS{
         height: 1200;
     }
+
+    .container4{
+        width: 100%;
+    }
     .heading2{
         font-size: 150% !important;
         margin-top: 50px;
