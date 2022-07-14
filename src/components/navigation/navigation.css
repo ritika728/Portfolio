@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Barlow+Condensed&family=Cedarville+Cursive&family=Comfortaa:wght@600&family=Comic+Neue:wght@5;400&family=Courgette&family=Grape+Nuts&family=Lemonada:wght@400;600&family=Lobster&family=Montserrat:wght@600&family=Overlock:ital,wght@0,400;1,900&family=Paprika&family=Permanent+Marker&family=Secular+One&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Barlow+Condensed&family=Cedarville+Cursive&family=Comfortaa:wght@600&family=Comic+Neue:wght@300;400&family=Courgette&family=Grape+Nuts&family=Lemonada:wght@400;600&family=Lobster&family=Montserrat:wght@600&family=Overlock:ital,wght@0,400;1,900&family=Paprika&family=Permanent+Marker&family=Poppins&family=Secular+One&display=swap');
+
+body{
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #333333;
+    
+}
+
+::-webkit-scrollbar-track {
+    background-color: white;
+
+}
+.css-19kzrtu {
+    padding: 2px!important;
+}
+#nav {
+    background-color:transparent;
+    box-shadow: none;
+}
+
+.css-130f8nx a {
+    color:rgb(99,252,216);
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: 110%;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 10px 10px 10px;
+}
+path{
+    color: white;
+}
+
+.css-130f8nx a:hover {
+    text-decoration: underline;
+}
+
+.css-ahj2mt-MuiTypography-root {
+    overflow-x: hidden;
+}
+
+
+
+.css-k008qs{
+    /* background-image: url("../../assets/backimg.jpg"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: 50vw;
+    display: flex;
+    justify-content: center;
+    padding: 4px !important;
+}
+
+.css-4t3x6l-MuiPaper-root-MuiDrawer-paper {
+    background-color: rgb(131, 80, 41) !important;
+}
+.css-4t3x6l-MuiPaper-root-MuiDrawer-paper .logo{
+    margin: 20px auto;
+}
+.drawerLink {
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin:20px auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 110%;
+    margin-top: 20px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.drawerLink:hover {
+    text-decoration: underline;
+}
+
+

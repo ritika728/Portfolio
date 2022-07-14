@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+#CONTACT{
+
+  height: 580px;
+  margin-top: -70px;
+}
+
+.all{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.box{
+  display: flex;
+  flex-direction: column;
+}
+
+.input{
+  width: 300px;
+  height: 50px;
+  padding: 10px;
+  border-radius: 0.3rem;
+  border-style: none;
+
+}
+.form{
+  padding: 0 20px 20px 0;
+}
+
+.message{
+  height: 230px;
+  width: 300px;
+  border-radius: 0.3rem;
+  border-style: none;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.submit{
+  padding:15px;
+  width: 150px;
+  font-family:'Montserrat';
+  font-weight: bolder;
+  font-size: 18px;
+  background-color: rgb(136,146,176);
+  color: white;
+  border-style: none;
+  border-radius: 0.3rem;
+  justify-items: center;
+  display:block;
+  margin: 0 auto;
+  margin-left: 1025px;
+  margin-top: -50px !important;
+  letter-spacing: 0.3rem;
+}
+
+.title{
+  padding-bottom: 50px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(204,214,246);
+}
+
+input::placeholder{
+  font-size: 15px;
+  font-weight: bold;
+  color:lightslategrey;
+  font-family: 'Montserrat';
+}
+
+textarea::placeholder{
+  font-size: 18px;
+  font-weight: bold;
+  color:lightslategrey;
+}
+
+.total{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.socialsmain{
+  margin-top: -30px;
+  display: flex;
+  flex-direction: column;
+  width: 650px;
+}
+
+.socialsmain h1{
+  color:rgb(99,252,216);
+  font-size: 35px;
+  letter-spacing: 0.3rem;
+  font-family: "Open Sans";
+  font-weight: bolder ;
+}
+
+.socialsmain h5{
+  font-size: 20px;
+  text-align: justify;
+  color: rgb(136,146,176);
+  font-weight: lighter;
+  line-height: 2.2rem;
+  letter-spacing: 0.08rem;
+  font-family:"Open Sans";
+  
+}
+
+.socials{
+  display: flex;
+  flex-direction: row;
+}
+
+.icons{
+  margin-top: 20px !important;
+  display: inline-block;
+    border-radius: 100px;
+    color: white;
+    background-color:rgb(136,146,176) ;
+  padding: 1em 1em;
+  margin-right: 40px !important;
+}
+
+@media (max-width:1050px){
+  .container form .all{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  .message{
+      height: 70px;
+  }
+  .block{
+      position: relative;
+      left: -10px;
+  }
+  .container>form{
+      position: relative;
+      top: -40px;
+  }
+  .title{
+      padding-top: 1px;
+  }
+  .title p{
+      margin-top: -30px;
+  margin-bottom: 60px;
+  }
+  .submit{
+      height: 45px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 5px;
+      font-size: 100%;
+  }
+}
+@media (max-width:600px){
+  .container>form input,.message{
+      width: 80vw;
+  }
+  .title h1{
+      font-size: 30px!important;
+      margin-bottom: 50px;
+  }
+  .title p{
+      font-size: 15px!important;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .container1{
+      display: flex;
+      flex-direction: column;
+  }
+  .all{
+      display: flex;
+      flex-direction: column;
+      height: auto;
+      width: auto;
+  }
+  .input{
+      display: flex;
+      width: auto;
+      height: auto;
+  }
+  .box{
+      display: flex;
+      width: auto;
+      margin: 0 auto;
+  }
+  .message{
+      width: auto;
+      height: auto;
+  }
+  .block{
+      margin: 0 auto;
+      width: auto;
+  }
+  .input::placeholder{
+      font-size: 10px;
+  }
+  .message::placeholder{
+      font-size: 15px;
+  }
+  .submit{
+      width: auto;
+      font-size: 15px;
+  }
+}
+
+
+
