@@ -78,12 +78,12 @@
     }
 
     .mainheading{
-        font-size: 200% !important;
+        font-size: 150% !important;
     }
 
     .card{
         width: 70%;
-        height: 200px;
+        height: 60%;
         justify-content: center;
         margin: 0 auto;
         margin-bottom: 20px;
@@ -91,17 +91,18 @@
 
     .projecthead{
         margin-top: -20px;
-        font-size: 80%;
+        font-size: 60%;
+        text-align: center;
     }
 
     .para{
-        font-size: 80%;
+        font-size: 70%;
     }
     .stack{
         font-size: 60%;
     }
     .git{
-        margin-left: 260px !important;
+        margin-left: 550% !important;
     }
 }
 

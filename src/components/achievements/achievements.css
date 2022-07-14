@@ -162,8 +162,12 @@
 }
 
 @media (max-width:500px) {
+    #ACHIEVEMENTS{
+        height: 1200;
+    }
     .heading2{
-        font-size: 200% !important;
+        font-size: 150% !important;
+        margin-top: 50px;
     }
     .timeline-body{
         color: rgb(136,146,176);
@@ -176,15 +180,15 @@
         text-align: center;
     }
     .timeline {
-        width: 80%;
-        font-weight: 400; 
+        width: 60%;
+        /* font-weight: 400;  */
         list-style: none;
         padding: 20px 0 20px;
         position: relative;
         margin: 0 auto;
     }
     .timeline > li > .timeline-badge {
-        width: 4%;
+        width: 5%;
         height: 20%;
         line-height: 20px;
         /* font-size: 1.4em; */
@@ -205,6 +209,7 @@
     .timeline-panel{
         margin-left: -20px;
         margin-right: -20px;
+        /* margin-top: ; */
     }
      
 }

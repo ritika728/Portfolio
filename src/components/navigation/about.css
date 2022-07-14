@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 #ABOUT{
-    height: 600px ;
+    height: 800px !important ;
     scroll-behavior: smooth;
 }
 body{
@@ -76,14 +76,15 @@ img.image {
 
 @media (max-width:500px) {
     #ABOUT{
-        height: 800px !important;
+        height: 200% !important;
     }
     .main{
         display: flex;
         flex-direction: column-reverse;
-        justify-content: center;
-        margin: 0 auto;
+        justify-content: center !important;
+        margin: 0 auto !important;
         text-align: center;
+        align-items: center !important;
     }
     .photo{
         display: flex;
@@ -100,9 +101,11 @@ img.image {
         margin-left: 70px;
     }
     .heading p{
-        font-size: 100%;
-        margin-left: 90px;
-        margin-right: -70px;
+        width: 80%;
+        font-size: 90%;
+        margin: 0 auto;
+        margin-right: -40px !important;
+        
     }
 }
 
