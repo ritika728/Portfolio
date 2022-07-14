@@ -77,7 +77,6 @@
  -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
  opacity: 0.9;
- 
 
 }
 .timeline > li > .timeline-panel:before {
@@ -160,4 +159,52 @@
     margin-top: -5px;
     font-family: 'Open Sans';
     font-size: 15px;
+}
+
+@media (max-width:500px) {
+    .heading2{
+        font-size: 40px !important;
+    }
+    .timeline-body{
+        color: rgb(136,146,176);
+        display: flex;
+        justify-content: center;
+        margin-bottom: 5px;
+        margin-top: -5px;
+        font-family: 'Open Sans';
+        font-size: 10px;
+        text-align: center;
+    }
+    .timeline {
+        width: 350px;
+        font-weight: 400; 
+        list-style: none;
+        padding: 20px 0 20px;
+        position: relative;
+        margin: 0 auto;
+    }
+    .timeline > li > .timeline-badge {
+        width: 10px;
+        height: 10px;
+        line-height: 20px;
+        font-size: 1.4em;
+        text-align: center;
+        position: absolute;
+        top: 30px;
+        left: 50%;
+        margin-left: -10px;
+        background-color: rgb(99,252,216);
+        z-index: 100;
+        border-top-right-radius: 50%;
+        border-top-left-radius: 50%;
+        border-bottom-right-radius: 50%;
+        border-bottom-left-radius: 50%;
+        border:4px solid cadetblue;
+        
+       }
+    .timeline-panel{
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+     
 }

@@ -71,18 +71,41 @@ body{
     margin-top: 20px;
 }
 img.image {
-     /* filter: brightness(120%); */
-    /* filter: contrast(120%); */
     filter: drop-shadow(-10px 10px 10px rgb(99,252,216));
  }
 
-
-/* @keyframes fadeInAnimation {
-    0% {
-        opacity: 0;
+@media (max-width:500px) {
+    #ABOUT{
+        height: 800px !important;
     }
-    100% {
-        opacity: 1;
+    .main{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .photo{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .heading h1{
+        display: flex;
+        font-size: 30px;
+        text-align: center;
+        justify-content: center !important;
+        align-items: center !important;
+        margin-left: 70px;
+    }
+    .heading p{
+        font-size: 15px;
+        margin-left: 90px;
+        margin-right: -70px;
     }
 }
-  */
+
+
+
+

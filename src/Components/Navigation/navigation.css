@@ -62,7 +62,8 @@ path{
 }
 
 .css-4t3x6l-MuiPaper-root-MuiDrawer-paper {
-    background-color: rgb(131, 80, 41) !important;
+    background-color: rgb(99,252,216) !important;
+    /* width: 150px !important; */
 }
 .css-4t3x6l-MuiPaper-root-MuiDrawer-paper .logo{
     margin: 20px auto;
@@ -70,17 +71,75 @@ path{
 .drawerLink {
     display: block;
     text-decoration: none;
-    color: white;
+    color: rgb(10,25,47);
+    font-weight: bolder;
     margin:20px auto;
-    font-family: 'Montserrat', sans-serif;
     font-size: 110%;
     margin-top: 20px;
     cursor: pointer;
     font-family: 'Montserrat', sans-serif;
+
 }
 
 .drawerLink:hover {
     text-decoration: underline;
+}
+
+
+
+
+@media (max-width:1010px) {
+    .css-k008qs {
+        height: 90vw;
+    }
+
+}
+
+@media (max-width:920px) {
+    .css-k008qs{
+        height: 90vw;
+    }
+
+
+    .css-130f8nx a {
+        margin: 10px;
+        font-size: 90%;
+    }
+}
+
+@media (max-width:700px) {
+    .css-k008qs{
+        height: 100vw;
+    }
+
+}
+
+@media (max-width:610px) {
+    .css-k008qs{
+        height: 120vw;
+    }
+
+}
+
+@media (max-width:500px) {
+    .css-k008qs{
+        height: 170vw;
+    }
+
+}
+
+@media (max-width:410px) {
+    .css-k008qs {
+        height: 190vw;
+    }
+
+}
+
+@media (max-width:320px) {
+    .css-k008qs{
+        height: 220vw;
+    }
+
 }
 
 

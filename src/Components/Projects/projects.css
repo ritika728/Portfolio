@@ -62,3 +62,24 @@
 }
 
 
+@media (max-width:500px) {
+    #PROJECTS{
+        margin-top: 10px;
+        height: 1900px;
+    }
+    .every{
+        display: flex;
+        flex-direction: column;
+    }
+    .three{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mainheading{
+        font-size: 40px !important;
+    }
+}
+
+
+
