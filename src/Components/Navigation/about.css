@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 #ABOUT{
-    height: 580px ;
+    height: 600px ;
     scroll-behavior: smooth;
 }
 body{
@@ -93,14 +93,14 @@ img.image {
     }
     .heading h1{
         display: flex;
-        font-size: 30px;
+        font-size: 160%;
         text-align: center;
         justify-content: center !important;
         align-items: center !important;
         margin-left: 70px;
     }
     .heading p{
-        font-size: 15px;
+        font-size: 100%;
         margin-left: 90px;
         margin-right: -70px;
     }
