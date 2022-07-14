@@ -157,11 +157,14 @@ textarea::placeholder{
 
   .socialsmain h1{
     font-size: 110%;
-    margin-left: 15px;
+    text-align: center;
   }
   .socialsmain h5{
     display: flex;
     font-size: 110%;
+    /* text-align: center; */
+    margin: 0 auto;
+    align-items: center;
   }
 
   .box{
@@ -175,7 +178,7 @@ textarea::placeholder{
   }
   .socials{
     margin-top: -50px;
-    margin-left: 55px;
+    margin-left: 75px;
   }
   .message{
     width: 200px;
