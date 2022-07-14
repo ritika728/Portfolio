@@ -65,16 +65,15 @@ const ContactForm = () => {
                     required
                   ></textarea>
                 </div>
-                
                 </div>
-                
                 </div>
-              </form>
-            </div>
-            <div className="contactbtn">
+                <div className="contactbtn">
             <button type='submit'className="submit">SUBMIT
                 </button>
               </div>
+              </form>
+            </div>
+            
               <div className="socials">
                   <Link href="mailto:ritikamalik100102@gmail.com?"style={{marginLeft:"0px"}}className="icons" target="_blank"><EmailIcon/></Link>
                   <Link href="https://twitter.com/Ritika287" className="icons" target="_blank"><TwitterIcon/></Link>

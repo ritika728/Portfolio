@@ -133,7 +133,7 @@ textarea::placeholder{
 
 @media (max-width: 500px) {
   #CONTACT{
-    height: 00px !important;
+    height: 700px !important;
   }
   .title h1{
     font-size: 150% !important;
