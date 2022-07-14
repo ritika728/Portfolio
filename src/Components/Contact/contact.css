@@ -133,7 +133,7 @@ textarea::placeholder{
 
 @media (max-width: 500px) {
   #CONTACT{
-    height: 700px !important;
+    height: 800px !important;
   }
   .title h1{
     font-size: 40px !important;
@@ -177,8 +177,9 @@ textarea::placeholder{
     margin-left: 10px;
   }
   .socials{
-    margin-top: -50px;
-    margin-left: 75px;
+    margin: 0 auto !important;
+    margin-top: -50px !important;
+    /* margin-left: 75px !important; */
   }
   .message{
     width: 200px;
@@ -202,6 +203,14 @@ textarea::placeholder{
     font-size: 15px;
     font-weight: bold;
     color:lightslategrey;
+  }
+  .submit{
+    margin: 0 auto;
+    margin-top: -40px !important;
+    margin-bottom: 60px;
+    font-size: 15px;
+    width: 30%;
+    padding: 5px;
   }
 }
 
