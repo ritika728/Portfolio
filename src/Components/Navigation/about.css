@@ -3,6 +3,7 @@
 
 #ABOUT{
     height: 580px ;
+    scroll-behavior: smooth;
 }
 body{
     /* background-image: url(./about2.webp); */
