@@ -170,6 +170,7 @@ textarea::placeholder{
     margin: 0 auto;
     align-items: center;
     letter-spacing: 0;
+    line-height: 25px;
   }
 
   .box{
@@ -184,7 +185,7 @@ textarea::placeholder{
   .socials{
     margin: 0 auto !important;
     margin-top: -50px !important;
-    margin-left: 40px !important;
+    margin-left: 20px !important;
   }
   .message{
     width: 80%;
@@ -199,13 +200,13 @@ textarea::placeholder{
     margin: 0 auto;
   }
   input::placeholder{
-    font-size: 90%;
+    font-size: 70%;
     font-weight: bold;
     color:lightslategrey;
     font-family: 'Montserrat';
   }
   textarea::placeholder{
-    font-size: 110%;
+    font-size: 90%;
     font-weight: bold;
     color:lightslategrey;
   }

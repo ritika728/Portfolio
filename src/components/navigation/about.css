@@ -102,7 +102,7 @@ img.image {
     }
     .heading p{
         width: 80%;
-        font-size: 90%;
+        font-size: 80% !important;
         margin: 0 auto;
         margin-right: -40px !important;
         
