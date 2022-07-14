@@ -1,6 +1,5 @@
 import React from 'react'
 import './projects.css'
-import GithubIcon from "@material-ui/icons/GitHub";
 import LogoutIcon from '@mui/icons-material/Logout';
 import { Link } from '@material-ui/core';
 
