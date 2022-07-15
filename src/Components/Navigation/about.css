@@ -4,9 +4,11 @@
 #ABOUT{
     height: 1200px !important ;
     scroll-behavior: smooth;
+   
 }
+
 body{
-    /* background-image: url(./about2.webp); */
+
     background-color: rgb(10,25,47);
     background-repeat: no-repeat;
     background-size: cover;
@@ -14,6 +16,7 @@ body{
     
 }
 .main{
+    
     display: flex;
     flex-direction: row;
     justify-content:center;
@@ -91,6 +94,10 @@ img.image {
         justify-content: center;
         margin: 0 auto;
         margin-bottom: 20px;
+    }
+    .image{
+        /* width: 80%; */
+        height: 200px !important;
     }
     .heading h1{
         display: flex;

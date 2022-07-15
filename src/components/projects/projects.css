@@ -61,6 +61,26 @@
     margin-left: 320px !important;
 }
 
+.card:hover {
+    animation:  shake 0.8s  ;
+  }
+  
+  @keyframes shake{
+    0%{
+      transform: translateY(0)
+    }
+    25%{
+      transform: translateY(10px);
+    }
+      
+    50%{
+      transform: translateY(-10px);
+    }
+    100%{
+      transform: translateY(0px);
+    }
+  }
+
 
 @media (max-width:500px) {
     #PROJECTS{

@@ -1,13 +1,27 @@
-import React from 'react'
-import './achievements.css'
+import React from 'react';
+import './achievements.css';
+import Confetti from 'react-confetti';
+
 const achievements = () => {
+  // const { width, height } = useWindowSize()
+  
   return (
-    <div id='ACHIEVEMENTS'>
+    <>
+        <div id='ACHIEVEMENTS'>
+    
         <div className="container4" >
+        
     <div className="page-header">
         <h1 className="heading2" style={{fontSize:"50px"}} id="timeline">ACHIEVEMENTS</h1>
     </div>
     <ul className="timeline">
+    <Confetti
+     width={"1000px"}
+     height={"1000px"}
+     opacity={0.7}
+     recycle={false}
+    //  confettiSource={"x: 900px, y: 1000, w: canvas.width, h:700px"}
+  />
         <li>
           <div className="timeline-badge"></div>
           <div className="timeline-panel">
@@ -84,7 +98,9 @@ const achievements = () => {
     </ul>
 </div>
     </div>
+    </>
   )
 }
 
 export default achievements
+

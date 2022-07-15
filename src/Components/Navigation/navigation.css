@@ -50,12 +50,12 @@ path{
 
 
 .css-k008qs{
-    /* background-image: url("../../assets/backimg.jpg"); */
+    background-image: url("./bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     overflow-x: hidden;
     overflow-y: hidden;
-    height: 50vw;
+    height: 45vw;
     display: flex;
     justify-content: center;
     padding: 4px !important;
@@ -119,7 +119,8 @@ path{
 
 @media (max-width:500px) {
     .css-k008qs{
-        height: 170vw;
+        height: 145vw;
+        background-position:bottom;
     }
 
 }
