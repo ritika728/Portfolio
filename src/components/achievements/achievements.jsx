@@ -17,9 +17,10 @@ const achievements = () => {
     <ul className="timeline">
     <Confetti
      width={"1000px"}
-     height={"1000px"}
-     opacity={0.7}
-     recycle={false}
+     height={"850px"}
+     opacity={0.4}
+     recycle={true}
+     numberOfPieces={100}
     //  confettiSource={"x: 900px, y: 1000, w: canvas.width, h:700px"}
   />
         <li>
