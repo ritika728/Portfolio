@@ -6,7 +6,6 @@ const achievements = () => {
   // const { width, height } = useWindowSize()
   
   return (
-    <>
         <div id='ACHIEVEMENTS'>
     
         <div className="container4" >
@@ -99,7 +98,7 @@ const achievements = () => {
     </ul>
 </div>
     </div>
-    </>
+    
   )
 }
 
