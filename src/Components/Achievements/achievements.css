@@ -162,6 +162,12 @@
 }
 
 @media (max-width:500px) {
+    html, body {
+        overflow-x: hidden;
+      }
+      body {
+        position: relative
+      }
     #ACHIEVEMENTS{
         height: 1200;
     }

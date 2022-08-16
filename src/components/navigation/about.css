@@ -7,6 +7,13 @@
    
 }
 
+html, body {
+    overflow-x: hidden;
+  }
+  body {
+    position: relative
+  }
+
 body{
 
     background-color: rgb(10,25,47);
