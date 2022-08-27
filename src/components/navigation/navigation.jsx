@@ -98,7 +98,10 @@ export default function DrawerAppBar(props) {
             <p>
 I'm a Front-End Web Developer, with a keen interest in Full Stack Web development. Currently, I am in my pre-final year pursuing a bachelor's degree in CSE.
 </p>
-            <p>My front-end skills include HTML, CSS, JavaScript basics and React JS. I frequently participate in coding contests and like contributing to open source.</p>
+            <p>My front-end skills include HTML, CSS, JavaScript basics and React JS. I am a highly motivated individual with strong
+leadership, management and problem solving
+skills, with experience in managing teams.
+</p>
           </div>
           <div className="photo">
             <img className="image"  style={{height:"300px"}}src={require('./image.jpg')} alt="alternate" />
