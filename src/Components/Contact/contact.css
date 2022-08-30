@@ -131,7 +131,101 @@ textarea::placeholder{
   margin-right: 40px !important;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
+  #CONTACT{
+    height: 700px !important;
+  }
+  .title h1{
+    font-size: 150% !important;
+    text-align: center !important;
+    margin-top: 100px;
+
+  }
+
+  .form{
+    margin-bottom: 20px;
+  }
+  .container1{
+
+    display: flex;
+    flex-direction: column;
+  }
+  .total{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .socialsmain{
+    margin-top: -60px;
+    width:90%;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .socialsmain h1{
+    font-size: 90%;
+    text-align: center;
+  }
+  .socialsmain h5{
+    display: flex;
+    font-size: 90%;
+    /* text-align: center; */
+    margin: 0 auto;
+    align-items: center;
+    letter-spacing: 0;
+    line-height: 25px;
+  }
+
+  .box{
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+  }
+  .input{
+    width: 100% !important;
+    height: 100% !important;
+    margin-left: 10px;
+  }
+  .socials{
+    margin: 0 auto !important;
+    margin-top: -50px !important;
+    margin-left: 60px !important;
+  }
+  .message{
+    width: 100%;
+    height: 82%;
+  }
+  .icons{
+    padding: 10px;
+  }
+  .all{
+    display: flex;
+    flex-direction: row !important;
+    margin: 0 auto;
+  }
+  input::placeholder{
+    font-size: 70%;
+    font-weight: bold;
+    color:lightslategrey;
+    font-family: 'Montserrat';
+  }
+  textarea::placeholder{
+    font-size: 90%;
+    font-weight: bold;
+    color:lightslategrey;
+  }
+  .submit{
+    margin: 0 auto;
+    margin-top: -30px !important;
+    margin-bottom: 60px;
+    font-size: 15px;
+    width: 30%;
+    padding: 5px;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 1300px){
   #CONTACT{
     height: 700px !important;
   }
@@ -148,7 +242,7 @@ textarea::placeholder{
   }
   .total{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
   }
 
   .socialsmain{
@@ -219,5 +313,8 @@ textarea::placeholder{
     padding: 5px;
   }
 }
+
+
+
 
 

@@ -85,9 +85,9 @@ path{
     text-decoration: underline;
 }
 
-@media (max-width:1010px) {
+@media (max-width:1300px) {
     .css-k008qs {
-        height: 90vw;
+        height: 40vw;
     }
 
 }
@@ -139,5 +139,4 @@ path{
     }
 
 }
-
 

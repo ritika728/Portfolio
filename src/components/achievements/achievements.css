@@ -161,7 +161,7 @@
     font-size: 15px;
 }
 
-@media (max-width:500px) {
+@media (max-width:1300px) {
     html, body {
         overflow-x: hidden;
       }
