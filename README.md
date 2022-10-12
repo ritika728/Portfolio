@@ -1,7 +1,7 @@
 # [Portfolio Website](fluffy-cupcake-f1a396.netlify.app/) 
 
 
-This site is a home page for my portfolio. It will show my introduction, projects, achievements, and the contact to reach out to me.  
+This site is a home page for my portfolio. It will show my introduction, projects, achievements, and contact section to reach me out.    
 
 ## Technologies Used
 
