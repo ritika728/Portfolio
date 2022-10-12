@@ -34,7 +34,7 @@ const achievements = () => {
           <div class="timeline-badge"></div>
           <div class="timeline-panel">
             <div class="timeline-body">
-              <p>Selected as the publicity volunteer for YESIST12 2022</p>
+              <p>Secured first position in a coding contest organised by CSI Laxmangarh Chapter.</p>
             </div>
           </div>
         </li>
@@ -42,7 +42,7 @@ const achievements = () => {
           <div class="timeline-badge"></div>
           <div class="timeline-panel">
             <div class="timeline-body">
-              <p>Selected as a mentee in Clique's Web Development Domain'22</p>
+            <p>Secured 3rd position in Mindwrap Code-a-thon, a 3 day coding venture organised by IEEE SCT SB</p>
             </div>
           </div>
         </li>
@@ -51,7 +51,7 @@ const achievements = () => {
                     <div class="timeline-badge"></div>
           <div class="timeline-panel">
             <div class="timeline-body">
-              <p>Chosen as Campus Mantri of GeeksforGeeks in Mody University</p>
+            <p>Project 'The Ultimate Tracker' was titled as third best project made during Hackmafest, an International Hackathon</p>
             </div>
           </div>
         </li>
@@ -59,7 +59,8 @@ const achievements = () => {
           <div class="timeline-badge"></div>
           <div class="timeline-panel">
             <div class="timeline-body">
-              <p>Selected for Open Source Mentorship Cohort at Codess Cafe</p>
+            <p>Selected as one of the mentee in Clique's Web Development Domain'22</p>
+            
             </div>
           </div>
         </li>
@@ -67,7 +68,7 @@ const achievements = () => {
           <div class="timeline-badge"></div>
           <div class="timeline-panel">
             <div class="timeline-body">
-              <p>Secured first position in a coding contest organised by CSI Laxmangarh Chapter</p>
+            <p>Chosen for Open Source Mentorship Cohort at Codess Cafe</p>
             </div>
           </div>
         </li>
@@ -75,7 +76,7 @@ const achievements = () => {
           <div class="timeline-badge"></div>
           <div class="timeline-panel">
             <div class="timeline-body">
-              <p>Project 'The Ultimate Tracker' was titled as third best project made during Hackmafest, an International Hackathon</p>
+            <p>Got the position of Campus Mantri of GeeksforGeeks in Mody University</p>
             </div>
           </div>
         </li>
@@ -83,7 +84,8 @@ const achievements = () => {
           <div class="timeline-badge"></div>
           <div class="timeline-panel">
             <div class="timeline-body">
-              <p>Secured 3rd position in Mindwrap Code-a-thon, a 3 day coding venture organised by IEEE SCT SB</p>
+            <p>Star performer for the month of July 2021 in the Learning League Track- Quest Gaming under IEEE CS MUST</p>
+           
             </div>
           </div>
         </li>
@@ -91,7 +93,7 @@ const achievements = () => {
           <div class="timeline-badge"></div>
           <div class="timeline-panel">
             <div class="timeline-body">
-              <p>Star performer for the month of July 2021 in the Learning League Track- Quest Gaming under IEEE CS MUST</p>
+            <p>Selected as the publicity volunteer for YESIST12 2022</p>
             </div>
           </div>
         </li>
