@@ -26,7 +26,8 @@ const achievements = () => {
           <div className="timeline-badge"></div>
           <div className="timeline-panel">
             <div class="timeline-body">
-              <p>Winner of JPMorgan's Code for Good Hackathon '22</p>
+              <p>Received Dan Kohn Scholarship in the Student category for virtual
+                 attendance of KubeCon + CloudNativeCon Europe 2023</p>
             </div>
           </div>
         </li>
@@ -34,7 +35,40 @@ const achievements = () => {
           <div class="timeline-badge"></div>
           <div class="timeline-panel">
             <div class="timeline-body">
-              <p>Secured first position in a coding contest organised by CSI Laxmangarh Chapter.</p>
+              <p>Secured 5th position among 1700+ participants in JWOC'23 organized by Jalpaiguri Government Engineering College. Rewarded with ISET Singapore Scholarship
+</p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div className="timeline-badge"></div>
+          <div className="timeline-panel">
+            <div class="timeline-body">
+              <p>Selected in the cohort of 200 girls from a pool of 9000+ partcipants in Flipkart Girls Wanna Code 4.0</p>
+            </div>
+          </div>
+        </li>
+        <li class="timeline-inverted">
+          <div class="timeline-badge"></div>
+          <div class="timeline-panel">
+            <div class="timeline-body">
+              <p>Winner of JPMorgan's Code for Good Hackathon '22</p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div className="timeline-badge"></div>
+          <div className="timeline-panel">
+            <div class="timeline-body">
+              <p>Got certified as Postman API Fundamentals Student Expert</p>
+            </div>
+          </div>
+        </li>
+        <li class="timeline-inverted">
+          <div class="timeline-badge"></div>
+          <div class="timeline-panel">
+            <div class="timeline-body">
+              <p>Secured first position in a coding contest organised by CSI Laxmangarh Chapter</p>
             </div>
           </div>
         </li>
@@ -59,7 +93,7 @@ const achievements = () => {
           <div class="timeline-badge"></div>
           <div class="timeline-panel">
             <div class="timeline-body">
-            <p>Selected as one of the mentee in Clique's Web Development Domain'22</p>
+            <p>Selected in the Web Development Squad of Clique'22</p>
             
             </div>
           </div>
@@ -86,14 +120,6 @@ const achievements = () => {
             <div class="timeline-body">
             <p>Star performer for the month of July 2021 in the Learning League Track- Quest Gaming under IEEE CS MUST</p>
            
-            </div>
-          </div>
-        </li>
-        <li>
-          <div class="timeline-badge"></div>
-          <div class="timeline-panel">
-            <div class="timeline-body">
-            <p>Selected as the publicity volunteer for YESIST12 2022</p>
             </div>
           </div>
         </li>
