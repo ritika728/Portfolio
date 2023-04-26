@@ -1,9 +1,9 @@
 import './landing.css'
-import DrawerAppBar from "../../components/navigation/navigation";
+import DrawerAppBar from "../../Components/Navigation/navigation.jsx";
 import { useState } from 'react';
-import ContactForm from '../../components/contact/contact'
-import Achievements from '../../components/achievements/achievements';
-import Projects from '../../components/projects/projects';
+import ContactForm from '../../Components/Contact/contact.jsx'
+import Achievements from '../../Components/Achievements/achievements.jsx';
+import Projects from '../../Components/Projects/projects.jsx';
 
 function Landing() {
     const [navBg, setNavBg] = useState(false);

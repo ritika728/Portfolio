@@ -96,11 +96,9 @@ export default function DrawerAppBar(props) {
           <div className="heading">
             <h1>Hello, I'm Ritika Malik</h1>
             <p>
-A Front-End Web Developer, with a keen interest in Full Stack Web development. Currently, I'm holding the position of Secretary at GeeksforGeeks MUST and WebMaster at IEEE SB MUST. 
+            I'm is a prefinal year student majoring in Bachelors in Computer Science. I am an aspiring frontend developer who loves developing interactive user-friendly  websites using HTML, CSS and ReactJS.  
 </p>
-            <p>My front-end skills include HTML, CSS, JavaScript basics and React JS. I am a highly motivated individual with strong
-leadership, management and problem solving
-skills, with experience in managing teams.
+            <p>I am highly inclined towards open source and enjoys working with the community. Currently the Secretary of GeeksforGeeks Student Chapter & WebMaster of IEEE Student Branch.
 </p>
           </div>
           <div className="photo">

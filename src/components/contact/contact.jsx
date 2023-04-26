@@ -27,7 +27,7 @@ const ContactForm = () => {
                 <div className="socialsmain">
                 <h1 style={{marginBottom:"65px"}}>GETTING IN TOUCH IS EASY!</h1>
                 <h5 style={{marginTop:"-20px", marginBottom:"40px"}}>
-                  I am open to collaborate for any project. Thank you for viewing my portfolio. I hope you enjoyed looking at my work. Feel free to drop of any feedback and don't forget to connect with me.
+                I hope you enjoyed looking at my work. I am open to collaborate for any project. Feel free to drop of any feedback and let's connect!
                 </h5>
                </div>
                 <div className="all">
@@ -76,7 +76,7 @@ const ContactForm = () => {
             
               <div className="socials">
                   <Link href="mailto:ritikamalik100102@gmail.com?"style={{marginLeft:"0px"}}className="icons" target="_blank"><EmailIcon/></Link>
-                  <Link href="https://twitter.com/Ritika287" className="icons" target="_blank"><TwitterIcon/></Link>
+                  <Link href="https://twitter.com/ritikatwts" className="icons" target="_blank"><TwitterIcon/></Link>
                   <Link href="https://github.com/ritika728" className="icons" target="_blank"><GitHubIcon/></Link>
                   <Link href="https://www.linkedin.com/in/ritika-malik-must/" target="_blank" className="icons"><LinkedInIcon/></Link>
                </div>

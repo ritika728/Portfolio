@@ -1,5 +1,5 @@
 import { Routes, Route } from 'react-router-dom';
-import Landing from './pages/landing/landing'
+import Landing from './Pages/landing/landing.jsx'
 import ScrollToTop from 'react-scroll-to-top';
 
 function App() {
