@@ -156,16 +156,20 @@ textarea::placeholder{
 
 @media (max-width: 700px) {
   #CONTACT{
-    margin-top: 50%;
+    margin-top: 70%;
   }
   .socials{
     display: none;
   }
   .socials2{
     display:flex;
-    margin-top: -5%;
+    margin-top: 5;
     margin-left: 13%;
     margin-bottom: 20%;
+  }
+  .copyright{
+    margin-top: 30%;
+    margin-bottom: 5%;
   }
 
   .title h1{
