@@ -2,11 +2,15 @@ import { Routes, Route } from 'react-router-dom';
 import Landing from './Pages/landing/landing.jsx'
 import ScrollToTop from 'react-scroll-to-top';
 import AnimatedCursor from "react-animated-cursor"
+import './cursor.css'
 
 function App() {
   return (
     <div>
-      <AnimatedCursor 
+      <AnimatedCursor
+            position={"fixed"}
+            pointer-events={"none"}
+            // z-index={99999}
             innerSize={20}
             outerSize={20}
             color='185,194,223'
