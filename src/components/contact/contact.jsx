@@ -27,7 +27,7 @@ const ContactForm = () => {
                 <div className="socialsmain">
                 <h1 style={{marginBottom:"65px"}}>GETTING IN TOUCH IS EASY!</h1>
                 <h5 style={{marginTop:"-20px", marginBottom:"40px"}}>
-                I hope you enjoyed looking at my work. I am open to collaborate for any project. Feel free to drop of any feedback and let's connect!
+                I hope you enjoyed looking at my work. I am open to collaborate for interesting projects. Feel free to drop of any feedback and let's connect!
                 </h5>
                 <div className="socials">
                   <Link href="mailto:ritikamalik100102@gmail.com?"style={{marginLeft:"0px"}}className="icons" target="_blank"><EmailIcon/></Link>
