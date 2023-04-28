@@ -29,14 +29,21 @@ const ContactForm = () => {
                 <h5 style={{marginTop:"-20px", marginBottom:"40px"}}>
                 I hope you enjoyed looking at my work. I am open to collaborate for any project. Feel free to drop of any feedback and let's connect!
                 </h5>
+                <div className="socials">
+                  <Link href="mailto:ritikamalik100102@gmail.com?"style={{marginLeft:"0px"}}className="icons" target="_blank"><EmailIcon/></Link>
+                  <Link href="https://twitter.com/ritikatwts" className="icons" target="_blank"><TwitterIcon/></Link>
+                  <Link href="https://github.com/ritika728" className="icons" target="_blank"><GitHubIcon/></Link>
+                  <Link href="https://www.linkedin.com/in/ritika-malik-must/" target="_blank" className="icons"><LinkedInIcon/></Link>
                </div>
+               </div>
+               <div className='fbtn'>
                 <div className="all">
                 <div className="box">
                     <div className="form">
                       <input className="input"
                         type='text'
                         name='name'
-                        placeholder='Your Name*'
+                        placeholder='Your Name'
                         required 
                       />
                        </div>
@@ -44,7 +51,7 @@ const ContactForm = () => {
                       <input className="input"
                         name='email'
                         id='email'
-                        placeholder='Your Email*'
+                        placeholder='Your Email'
                         required
                       />
                   </div>
@@ -52,35 +59,38 @@ const ContactForm = () => {
                       <input className="input"
                         name='number'
                         id='number'
-                        placeholder='Your Phone Number*'
+                        placeholder='Your Phone Number'
                         required
                       />
                   </div>
+
                   </div>
                 <div className="block">
                   <textarea className="message"
                     name='message'
                     id='message'
-                    placeholder ='Your Message*'
+                    placeholder ='Your Message'
                     required
                   ></textarea>
-                </div>
                 </div>
                 </div>
                 <div className="contactbtn">
             <button type='submit'className="submit">SUBMIT
                 </button>
               </div>
-              </form>
-            </div>
-            
-              <div className="socials">
+              <div className="socials2">
                   <Link href="mailto:ritikamalik100102@gmail.com?"style={{marginLeft:"0px"}}className="icons" target="_blank"><EmailIcon/></Link>
                   <Link href="https://twitter.com/ritikatwts" className="icons" target="_blank"><TwitterIcon/></Link>
                   <Link href="https://github.com/ritika728" className="icons" target="_blank"><GitHubIcon/></Link>
                   <Link href="https://www.linkedin.com/in/ritika-malik-must/" target="_blank" className="icons"><LinkedInIcon/></Link>
                </div>
+                </div>
+   
+              </div>
+              </form>
+            </div>
           </div>
+          <h4 className='copyright'>©Ritika Malik 2023</h4>
           </div>
   )
 }
