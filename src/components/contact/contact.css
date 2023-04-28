@@ -167,7 +167,7 @@ textarea::placeholder{
   }
   .socials2{
     display:flex;
-    margin-top: 3%;
+    margin-top: -3%;
     margin-left: 9%;
     margin-bottom: 20%;
   }
