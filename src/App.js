@@ -5,8 +5,9 @@ import AnimatedCursor from "react-animated-cursor"
 import './cursor.css'
 import React, { useState, useEffect } from 'react';
 import { css } from "@emotion/react";
-import ClipLoader from 'react-spinners/ClipLoader';
+import ClipLoader from 'react-spinners/RingLoader';
 import '../src/Components/Navigation/navigation.css'
+import { RingLoader } from 'react-spinners';
 
 
 function App() {
@@ -15,7 +16,7 @@ function App() {
 		setLoading(true);
 		setTimeout(() => {
 			setLoading(false);
-		}, 1500);
+		}, 2100);
 	}, []);
   return (
     <div>
@@ -33,7 +34,7 @@ function App() {
          <ScrollToTop />
          {loading ? (
 				<div className="loader-container">
-					<ClipLoader color={'#fff'} size={100} margin-left={50} />
+					<RingLoader color={'#fff'} size={70} margin-left={50} />
 				</div>
 			) : (
          <Routes>
