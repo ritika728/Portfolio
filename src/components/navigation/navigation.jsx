@@ -96,15 +96,15 @@ export default function DrawerAppBar(props) {
           <div className="main">
           <div className="heading">
             <h1>Hello, I'm Ritika Malik</h1>
+            <h2>SDE Intern - JP Morgan Chase & Co. </h2>
             <p>
-            I'm is a prefinal year student majoring in Bachelors in Computer Science. I am an aspiring frontend developer who loves developing interactive user-friendly  websites using HTML, CSS and ReactJS.  
+            My passion lies in crafting captivating websites that not only dazzle the eyes but also engage the user on a profound level, and my weapon of choice? ReactJS. I'm committed to open source collaboration, finding fulfillment in contributing to community-driven projects. 
 </p>
-            <p>I am highly inclined towards open source and enjoys working with the community. Currently the Secretary of GeeksforGeeks Student Chapter & WebMaster of IEEE Student Branch.
-</p>
+<p>You'll find me coding by a peaceful lake or a mountainside!</p>
           </div>
-          <div className="photo">
+          {/* <div className="photo">
             <img className="image"  style={{height:"300px"}}src={require('./image.jpg')} alt="alternate" />
-          </div>
+          </div> */}
          </div>
          </div>
         </Typography>

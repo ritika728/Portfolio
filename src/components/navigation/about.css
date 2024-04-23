@@ -27,7 +27,11 @@ body{
     display: flex;
     flex-direction: row;
     justify-content:center;
+    margin: auto 0;
     margin-top: 50px;
+    text-align: center;
+    max-width: 1000px;
+    margin-left: 150px;
 
 }
 .heading{
@@ -37,7 +41,7 @@ body{
     justify-content: center;
     margin-right: 150px;
     font-family: "Montserrats";
-    max-width: 600px;
+
 }
 
 .heading h1{
@@ -49,28 +53,36 @@ body{
             animation-iteration-count:1;
     font-family: 'Montserrat', sans-serif;
 }
+
+.heading h2{
+    margin-top: -20px;
+    font-size: 25px;
+    white-space:nowrap;
+    overflow:hidden;
+    font-family: 'Montserrat', sans-serif;
+}
 .heading p{
-    text-align: justify;
-    font-size: 20px;
+    text-align: center;
+    font-size: 23px;
     /* animation: fadeInAnimation ease 10s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards; */
     font-family: "Open Sans", sans-serif;
-    letter-spacing: 0.1rem;
+    letter-spacing: 0.2rem;
     color: rgb(97,109,136);
 }
-.photo{
+/* .photo{
     display: flex;
     flex-direction: row;
     margin-top: 20px;
-}
+} */
 
 @keyframes typing {
     0% { width:0% }
     100% { width:100% }
 }
 
-.image{
+/* .image{
     border-radius: 1rem;
     margin-top: 100px;
     margin-left: 50px;
@@ -83,7 +95,7 @@ body{
 }
 img.image {
     filter: drop-shadow(-10px 10px 10px rgb(99,252,216));
- }
+ } */
 
 @media (max-width:700px) {
     #ABOUT{
@@ -114,6 +126,14 @@ img.image {
         justify-content: center !important;
         align-items: center !important;
         margin-left: 70px;
+    }
+    .heading h2{
+        display: flex;
+        font-size: 80%;
+        text-align: center;
+        justify-content: center !important;
+        align-items: center !important;
+        margin-left: 135px;
     }
     .heading p{
         width: 80%;
