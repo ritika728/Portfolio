@@ -1,6 +1,6 @@
 import React from 'react';
 import emailjs  from 'emailjs-com';
-import './contact.css'
+import './contact_file.css'
 import GitHubIcon from "@material-ui/icons/GitHub";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
