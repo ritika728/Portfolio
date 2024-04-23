@@ -156,7 +156,7 @@ textarea::placeholder{
 
 @media (max-width: 700px) {
   #CONTACT{
-    margin-top: 120%;
+    margin-top: 80%;
   }
   .socials{
     display: none;
