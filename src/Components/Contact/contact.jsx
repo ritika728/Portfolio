@@ -82,7 +82,7 @@ const ContactForm = () => {
                   <Link href="mailto:ritikamalik100102@gmail.com?"style={{marginLeft:"0px"}}className="icons" target="_blank"><EmailIcon/></Link>
                   <Link href="https://twitter.com/ritikatwts" className="icons" target="_blank"><TwitterIcon/></Link>
                   <Link href="https://github.com/ritika728" className="icons" target="_blank"><GitHubIcon/></Link>
-                  <Link href="https://www.linkedin.com/in/ritika-malik-must/" target="_blank" className="icons"><LinkedInIcon/></Link>
+                  <Link href="https://www.linkedin.com/in/ritikamalik10/" target="_blank" className="icons"><LinkedInIcon/></Link>
                </div>
                 </div>
    

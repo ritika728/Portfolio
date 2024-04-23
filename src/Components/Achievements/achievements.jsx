@@ -22,12 +22,43 @@ const achievements = () => {
      numberOfPieces={100}
     //  confettiSource={"x: 900px, y: 1000, w: canvas.width, h:700px"}
   />
+          <li>
+          <div className="timeline-badge"></div>
+          <div className="timeline-panel">
+            <div class="timeline-body">
+              <p>Awarded with ISET Singapore Scholarship - a 7D6N trip to Singapore</p>
+            </div>
+          </div>
+        </li>
+        <li class="timeline-inverted">
+          <div className="timeline-badge"></div>
+          <div className="timeline-panel">
+            <div class="timeline-body">
+              <p>Team Secured 138th rank globally, 68th in Asia Pacific, and 11th rank in India in IEEE Xtreme 17.0</p>
+            </div>
+          </div>
+        </li>
         <li>
           <div className="timeline-badge"></div>
           <div className="timeline-panel">
             <div class="timeline-body">
-              <p>Received Dan Kohn Scholarship in the Student category for virtual
-                 attendance of KubeCon + CloudNativeCon Europe 2023</p>
+              <p>Acknowledged as the top mentor in JWOC'24 - a month long open source event</p>
+            </div>
+          </div>
+        </li>
+        <li class="timeline-inverted">
+          <div className="timeline-badge"></div>
+          <div className="timeline-panel">
+            <div class="timeline-body">
+              <p>Represented CSE Department of University at the Parliament House & interacted with Vice-President of India</p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div className="timeline-badge"></div>
+          <div className="timeline-panel">
+            <div class="timeline-body">
+              <p>Awarded with 100% scholarship for the ally ticket for WTGC'23</p>
             </div>
           </div>
         </li>
@@ -35,7 +66,7 @@ const achievements = () => {
           <div class="timeline-badge"></div>
           <div class="timeline-panel">
             <div class="timeline-body">
-              <p>Secured 5th position among 1700+ participants in JWOC'23 organized by Jalpaiguri Government Engineering College. Rewarded with ISET Singapore Scholarship
+              <p>Secured 5th position among 1700+ participants in JWOC'23 organized by Jalpaiguri Government Engineering College
 </p>
             </div>
           </div>
@@ -57,14 +88,6 @@ const achievements = () => {
           </div>
         </li>
         <li>
-          <div className="timeline-badge"></div>
-          <div className="timeline-panel">
-            <div class="timeline-body">
-              <p>Got certified as Postman API Fundamentals Student Expert</p>
-            </div>
-          </div>
-        </li>
-        <li class="timeline-inverted">
           <div class="timeline-badge"></div>
           <div class="timeline-panel">
             <div class="timeline-body">
@@ -72,7 +95,7 @@ const achievements = () => {
             </div>
           </div>
         </li>
-        <li>
+        <li class="timeline-inverted">
           <div class="timeline-badge"></div>
           <div class="timeline-panel">
             <div class="timeline-body">
@@ -81,7 +104,7 @@ const achievements = () => {
           </div>
         </li>
       
-        <li class="timeline-inverted">
+        <li>
                     <div class="timeline-badge"></div>
           <div class="timeline-panel">
             <div class="timeline-body">
@@ -89,20 +112,12 @@ const achievements = () => {
             </div>
           </div>
         </li>
-        <li>
-          <div class="timeline-badge"></div>
-          <div class="timeline-panel">
-            <div class="timeline-body">
-            <p>Selected in the Web Development Squad of Clique'22</p>
-            
-            </div>
-          </div>
-        </li>
         <li class="timeline-inverted">
           <div class="timeline-badge"></div>
           <div class="timeline-panel">
             <div class="timeline-body">
-            <p>Chosen for Open Source Mentorship Cohort at Codess Cafe</p>
+            <p>Selected in the Web Development Squad of Interestip 4.0 by Clique</p>
+            
             </div>
           </div>
         </li>
@@ -110,7 +125,7 @@ const achievements = () => {
           <div class="timeline-badge"></div>
           <div class="timeline-panel">
             <div class="timeline-body">
-            <p>Got the position of Campus Mantri of GeeksforGeeks in Mody University</p>
+            <p>Chosen for Open Source Mentorship Cohort at Codess Cafe</p>
             </div>
           </div>
         </li>
@@ -119,7 +134,7 @@ const achievements = () => {
           <div class="timeline-panel">
             <div class="timeline-body">
             <p>Star performer for the month of July 2021 in the Learning League Track- Quest Gaming under IEEE CS MUST</p>
-           
+        
             </div>
           </div>
         </li>
