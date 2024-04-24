@@ -50,7 +50,7 @@ body{
     overflow:hidden;
     animation:typing 4s steps(22,end) forwards,
             blink 1s infinite;
-            animation-iteration-count:1;
+            animation-iteration-count:1; */
     font-family: 'Montserrat', sans-serif;
 }
 

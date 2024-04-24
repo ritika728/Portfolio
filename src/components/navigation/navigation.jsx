@@ -100,7 +100,7 @@ export default function DrawerAppBar(props) {
             <p>
             My passion lies in crafting captivating websites that not only dazzle the eyes but also engage the user, and my weapon of choice? ReactJS. I'm committed to open source collaboration, finding fulfillment in contributing to community-driven projects. 
 </p>
-<p>You'll either find me coding by a peaceful lake or a mountainside, or simply whipping up something delicious in the kitchen!</p>
+<p className='para2'>You'll either find me coding by a peaceful lake or a mountainside, or simply whipping up something delicious in the kitchen!</p>
           </div>
           {/* <div className="photo">
             <img className="image"  style={{height:"300px"}}src={require('./image.jpg')} alt="alternate" />
