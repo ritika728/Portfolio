@@ -48,10 +48,9 @@ body{
     font-size: 50px;
     white-space:nowrap;
     overflow:hidden;
-    animation:typing 4s steps(22,end) forwards,
+    /* animation:typing 4s steps(22,end) forwards,
             blink 1s infinite;
             animation-iteration-count:1; */
-    font-family: 'Montserrat', sans-serif;
 }
 
 .heading h2{
@@ -121,12 +120,13 @@ img.image {
     }
     .heading h1{
         display: flex;
-        font-size: 160%;
+        font-size: 130%;
         text-align: center;
         justify-content: center !important;
         align-items: center !important;
-        margin-left: 75px;
+        margin-left: 55% !important;
         margin-bottom: 40px !important;
+        overflow: visible;
     }
     .heading h2{
         display: flex;
@@ -134,15 +134,21 @@ img.image {
         text-align: center;
         justify-content: center !important;
         align-items: center !important;
-        margin-left: 135px;
+        margin-left: 55%;
         margin-bottom: 40px;
+        overflow: visible;
     }
     .heading p{
         width: 80%;
-        font-size: 95% !important;
+        font-size: 80% !important;
         margin: 0 auto;
-        margin-right: -40px !important;
+        margin-right: -45px !important;
+        text-align: center;
         
+    }
+
+    .para2{
+        margin-top: 30px !important;
     }
 }
 
@@ -174,7 +180,16 @@ img.image {
         text-align: center;
         justify-content: center !important;
         align-items: center !important;
-        margin-left: 70px;
+        margin-left: 30%;
+
+    }
+    .heading h2{
+        display: flex;
+        font-size: 100%;
+        text-align: center;
+        justify-content: center !important;
+        align-items: center !important;
+        margin-left: 30%;
 
     }
     .heading p{
