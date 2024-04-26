@@ -98,9 +98,9 @@ export default function DrawerAppBar(props) {
             <h1>Hello, I'm Ritika Malik</h1>
             <h2>SDE Intern - JP Morgan Chase & Co. </h2>
             <p>
-            My passion lies in crafting captivating websites that not only dazzle the eyes but also engage the user, and my weapon of choice? ReactJS. I'm committed to open source collaboration, finding fulfillment in contributing to community-driven projects. 
+            My passion lies in developing websites that not only dazzle the eyes but also engage the user, and my weapon of choice? ReactJS. I'm committed to open source collaboration, finding fulfillment in contributing to community-driven projects. 
 </p>
-<p className='para2'>You'll either find me coding by a peaceful lake or a mountainside, or simply whipping up something delicious in the kitchen!</p>
+<p className='para2'>You'll either find me coding by a peaceful lake, or simply whipping up something delicious in the kitchen!</p>
           </div>
           {/* <div className="photo">
             <img className="image"  style={{height:"300px"}}src={require('./image.jpg')} alt="alternate" />
