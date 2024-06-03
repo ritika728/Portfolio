@@ -1,5 +1,5 @@
 import React from 'react';
-import './achievements.css';
+import './achievements_file.css';
 import Confetti from 'react-confetti';
 
 const achievements = () => {

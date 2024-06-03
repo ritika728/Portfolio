@@ -154,7 +154,7 @@ textarea::placeholder{
   transition: all .5s ease-in-out;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 700px ) {
   #CONTACT{
     margin-top: 0%;
   }
