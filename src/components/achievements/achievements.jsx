@@ -22,7 +22,31 @@ const achievements = () => {
      numberOfPieces={100}
     //  confettiSource={"x: 900px, y: 1000, w: canvas.width, h:700px"}
   />
-          <li>
+            <li>
+          <div className="timeline-badge"></div>
+          <div className="timeline-panel">
+            <div class="timeline-body">
+              <p>Honored with Dr. J.K. Pal Memorial Award'24 by IEEE</p>
+            </div>
+          </div>
+        </li>
+        <li class="timeline-inverted">>
+          <div className="timeline-badge"></div>
+          <div className="timeline-panel">
+            <div class="timeline-body">
+              <p>Awarded with a free ticket to join Perspektywy Women In Tech Summit'24, Europe's largest event for Women in Tech & IT</p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div className="timeline-badge"></div>
+          <div className="timeline-panel">
+            <div class="timeline-body">
+              <p>Achieved the prestigious titile of R10 (Asia - Pacific) Ethics Champion'24 by IEEE</p>
+            </div>
+          </div>
+        </li>
+          <li class="timeline-inverted">>
           <div className="timeline-badge"></div>
           <div className="timeline-panel">
             <div class="timeline-body">
@@ -30,7 +54,7 @@ const achievements = () => {
             </div>
           </div>
         </li>
-        <li class="timeline-inverted">
+        <li>
           <div className="timeline-badge"></div>
           <div className="timeline-panel">
             <div class="timeline-body">
@@ -38,7 +62,7 @@ const achievements = () => {
             </div>
           </div>
         </li>
-        <li>
+        <li class="timeline-inverted">>
           <div className="timeline-badge"></div>
           <div className="timeline-panel">
             <div class="timeline-body">
@@ -46,7 +70,7 @@ const achievements = () => {
             </div>
           </div>
         </li>
-        <li class="timeline-inverted">
+        <li>
           <div className="timeline-badge"></div>
           <div className="timeline-panel">
             <div class="timeline-body">
@@ -54,7 +78,7 @@ const achievements = () => {
             </div>
           </div>
         </li>
-        <li>
+        <li class="timeline-inverted">>
           <div className="timeline-badge"></div>
           <div className="timeline-panel">
             <div class="timeline-body">
@@ -62,7 +86,7 @@ const achievements = () => {
             </div>
           </div>
         </li>
-        <li class="timeline-inverted">
+        <li>
           <div class="timeline-badge"></div>
           <div class="timeline-panel">
             <div class="timeline-body">
@@ -71,7 +95,7 @@ const achievements = () => {
             </div>
           </div>
         </li>
-        <li>
+        <li class="timeline-inverted">>
           <div className="timeline-badge"></div>
           <div className="timeline-panel">
             <div class="timeline-body">
@@ -79,7 +103,7 @@ const achievements = () => {
             </div>
           </div>
         </li>
-        <li class="timeline-inverted">
+        <li>
           <div class="timeline-badge"></div>
           <div class="timeline-panel">
             <div class="timeline-body">
@@ -87,7 +111,7 @@ const achievements = () => {
             </div>
           </div>
         </li>
-        <li>
+        <li class="timeline-inverted">>
           <div class="timeline-badge"></div>
           <div class="timeline-panel">
             <div class="timeline-body">
@@ -95,7 +119,7 @@ const achievements = () => {
             </div>
           </div>
         </li>
-        <li class="timeline-inverted">
+        <li>
           <div class="timeline-badge"></div>
           <div class="timeline-panel">
             <div class="timeline-body">
@@ -104,7 +128,7 @@ const achievements = () => {
           </div>
         </li>
       
-        <li>
+        <li class="timeline-inverted">>
                     <div class="timeline-badge"></div>
           <div class="timeline-panel">
             <div class="timeline-body">
@@ -112,7 +136,7 @@ const achievements = () => {
             </div>
           </div>
         </li>
-        <li class="timeline-inverted">
+        <li>
           <div class="timeline-badge"></div>
           <div class="timeline-panel">
             <div class="timeline-body">
@@ -121,7 +145,7 @@ const achievements = () => {
             </div>
           </div>
         </li>
-        <li>
+        <li class="timeline-inverted">>
           <div class="timeline-badge"></div>
           <div class="timeline-panel">
             <div class="timeline-body">
@@ -129,7 +153,7 @@ const achievements = () => {
             </div>
           </div>
         </li>
-        <li class="timeline-inverted">
+        <li>
           <div class="timeline-badge"></div>
           <div class="timeline-panel">
             <div class="timeline-body">
