@@ -2,7 +2,7 @@ import './landing.css'
 import DrawerAppBar from "../../Components/Navigation/navigation.jsx";
 import { useState } from 'react';
 import ContactForm from '../../Components/Contact/contact.jsx'
-import Achievements from '../../Components/Achievements/achievements.jsx';
+import Achievements from '../../Components/Achievements/achievement.jsx';
 import Projects from '../../Components/Projects/projects.jsx';
 
 function Landing() {
